@@ -20,7 +20,8 @@ sudo apt install git g++ extra-cmake-modules cmake gettext libkf5config-dev libk
 ``` shell
 sudo pacman -S kdecoration qt5-declarative qt5-x11extras kcoreaddons kguiaddons kconfigwidgets kwindowsystem fftw cmake extra-cmake-modules
 ```
-or you can find it in the AUR: https://aur.archlinux.org/packages/breeze-blurred-git/
+~~or you can find it in the AUR: https://aur.archlinux.org/packages/breeze-blurred-git/~~
+Make sure AUR is enabled
 
 ### OpenSUSE
 ``` shell
@@ -30,7 +31,7 @@ sudo zypper install git extra-cmake-modules libkdecoration2-devel kcoreaddons-de
 ## Installation
 In order to install the theme and add it to your decorations do the following:
 ``` shell
-git clone https://github.com/alex47/BreezeBlurred
+git clone https://github.com/bailtree/BreezeBlurred
 cd BreezeBlurred
 mkdir build
 cd build
